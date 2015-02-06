@@ -105,6 +105,7 @@ TARGET_NO_RADIOIMAGE := true
 
 # Don't generate block mode update zips
 BLOCK_BASED_OTA := false
+TARGET_USES_BLOCK_BASED_OTA := false
 
 # Enable dex-preoptimization to speed up first boot sequence
 ifeq ($(HOST_OS),linux)
